@@ -1,0 +1,113 @@
+.flexCenter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 0 3rem;
+}
+
+.h-wrapper {
+    /* background: black; */
+    padding: 1rem;
+}
+
+.centerElements>a {
+    color: black;
+    font-weight: 400;
+    transition: 500ms;
+}
+
+.centerElements>a:hover {
+    color: rgb(255, 56, 56);
+    text-decoration: underline;
+
+}
+
+.centerElements>a::after {
+    width: 100%;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.h-logo>a{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.signIn {
+   border: solid black;
+   background: none;
+   color: white;
+   padding: 0.45rem 1.5rem;
+   border-radius: 0.3rem;
+   transition: all 200ms ease-out;
+   cursor: pointer;
+}
+
+.signIn>a {
+    font-size: medium;
+    color: black;
+    transition: 500ms;
+}
+
+.signIn>a:hover {
+    color: rgb(255, 56, 56);
+}
+
+.signInLogo {
+    color: rgb(0, 0, 0);
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.start {
+    background: black;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.3rem;
+    transition: all 200ms ease-out;
+    cursor: pointer;
+}
+
+.start:hover {
+    transform: scale(1.1);
+}
+
+.start>a {
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.signUp {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 0.7rem 1.5rem;
+    border: solid black;
+    border-radius: 0.3rem;
+    transition: all 200ms ease-out;
+    cursor: pointer;
+}
+
+.signUp:hover {
+    transform: scale(1.1);
+}
+
+.signUp>a {
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    font-weight: 500;
+}
+
+

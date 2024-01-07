@@ -1,0 +1,103 @@
+.discover-wrapper {
+    margin: 7rem 3rem;
+    }
+    
+    .discover-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flexColStartD {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        margin: 4rem 0;
+    }
+
+    .flexColStartD1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flexColStartD1>h1 {
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+    
+    .discover-courses {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 2rem;
+    }
+
+    .courseBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 1.7rem;
+        width: 403px;
+    }
+
+    .course-img{
+        width: 80%;
+        height: 200px;
+    }
+
+    p {
+        font-weight: 600;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        margin: 5rem;
+        gap: 1rem;
+    }
+
+    .enroll {
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        padding: 0.7rem 1.5rem;
+        border: solid black;
+        border-radius: 0.3rem;
+        transition: all 200ms ease-out;
+        cursor: pointer;
+    }
+
+    .c {
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        padding: 0.7rem 1.5rem;
+        border: none;
+        border-radius: 0.3rem;
+        transition: all 200ms ease-out;
+        cursor: pointer;
+    }
+
+    .enroll::after {
+        border: solid black;
+    }
+
+    .enroll:active {
+        border: solid black;
+    }
+
+    .enroll:hover {
+        transform: scale(1.1);
+    }
+
+    .enrollLink {
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
