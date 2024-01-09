@@ -1,5 +1,5 @@
 .program-wrapper {
-    margin: 3rem;
+    margin: 4rem;
     display: grid;
     }
     
@@ -43,6 +43,12 @@
 
 
     /* right side */
+
+    .program-right {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+    }
 
     .programImage {
         width: 80%;
